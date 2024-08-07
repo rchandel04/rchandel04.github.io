@@ -4,7 +4,7 @@
 
 layout: default
 ---
-<img src="/assets/images/HEADSHOT_ME.jpg" alt="headshot" style="width: 300px; height: auto;">
+<img src="/assets/images/HEADSHOT_ME.JPG" alt="headshot" style="width: 300px; height: auto;">
 
 My name is Rishabh Chandel. I am currently a 3rd year undergraduate student at the University of Michigan, Ann Arbor, studying Computer Science.
 
