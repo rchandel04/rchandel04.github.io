@@ -22,15 +22,15 @@ title: Rishabh Chandel
 email: rchandel@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Rishabh Chandel's research site.
-domain: rchandel04.github.io
+domain: "rchandel04.github.io"
 url: "https://rchandel04.github.io"
 baseurl: ""
 github_username:  rchandel04
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+#remote_theme: pages-themes/minimal@v0.2.0
+#plugins:
+#- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Exclude from processing.
 # The following items will not be processed, by default.

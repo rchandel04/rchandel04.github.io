@@ -1,0 +1,54 @@
+.small-image {
+    width: 200px;
+    height: auto;
+}
+
+nav {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex; // Makes the list items display in a row
+      justify-content: flex-start; // Aligns the items to the right
+      li {
+        margin-right: 10px; // Adds space between items
+        a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          &:hover {
+            background-color: #111;
+          }
+          &.current {
+            background-color: #555;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+}
+
+.download-button {
+display: inline-block;
+background-color: #007bff; /* Background color */
+color: white; /* Text color */
+padding: 10px 20px; /* Padding inside the button */
+text-align: center; /* Center the text */
+text-decoration: none; /* Remove underline */
+border-radius: 5px; /* Rounded corners */
+font-size: 16px; /* Font size */
+transition: background-color 0.3s; /* Smooth background color transition */
+
+&:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
+
+&:focus {
+    outline: none; /* Remove focus outline */
+}
+}
