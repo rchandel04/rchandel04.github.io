@@ -1,3 +1,4 @@
+/* Centering the content */
 body {
     display: flex;
     justify-content: center;
@@ -7,19 +8,40 @@ body {
     margin: 0;
 }
 
-.image-container {
-    text-align: center;
+/* Flexbox for image + text layout */
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adds spacing between the image and text */
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Style the image */
 .styled-image {
     width: 300px;
     height: auto;
     border: 5px solid #333;
     border-radius: 15px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease-in-out;
 }
 
-.styled-image:hover {
-    transform: scale(1.1);
+/* Text styling */
+.text-content {
+    max-width: 400px;
+}
+
+.text-content h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.text-content p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
 }
