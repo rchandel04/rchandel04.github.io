@@ -8,40 +8,18 @@ body {
     margin: 0;
 }
 
-/* Flexbox for image + text layout */
 .container {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* Adds spacing between the image and text */
-    max-width: 800px;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex; /* Make the container a flexbox */
+    align-items: center; /* Vertically center the image and text */
 }
 
-/* Style the image */
-.styled-image {
-    width: 300px;
-    height: auto;
-    border: 5px solid #333;
-    border-radius: 15px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+.image {
+width: 200px; /* Adjust the width of the image */
+height: auto; /* Keep the image's aspect ratio */
+margin-right: 20px; /* Add space between the image and the text */
 }
 
-/* Text styling */
-.text-content {
-    max-width: 400px;
-}
-
-.text-content h2 {
-    margin: 0 0 10px;
-    font-size: 24px;
-    color: #333;
-}
-
-.text-content p {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.5;
+.text {
+font-size: 16px; /* Adjust the font size */
+line-height: 1.5; /* Adjust the line height for better readability */
 }
